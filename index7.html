@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+
+        <p>Formulário</p>
+
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </p>
+
+        <p>
+            <label for="idade">Idade: </label>
+            <input type="text" id="idade" name="idade" placeholder="Sua idade" required>
+        </p>
+
+        <p>
+            Profissão: <br>
+            <label for="dev">Sou um dev </label>
+            <input type="radio" id="dev" name="Profissão" value="dev">
+            <label for="QA">Sou um QA </label>
+            <input type="radio" id="QA" name="Profissão" value="QA">
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" value="2024-06-01">
+        </p>
+
+        <p>
+            <label for="datetime">Date:</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2024-06-01T23:00">
+        </p>
+
+        <p>
+            <label for="time">Date:</label>
+            <input type="time" id="time" name="time" value="23:00:46">
+        </p>
+
+        <p>
+            <label for="cor">cor preferida:</label>
+            <input type="color" id="cor" name="cor" value="#06cf9c">
+        </p>
+
+        <p>
+            <label for="email">Seu email:</label>
+            <input type="email" id="email" name="email" placeholder="exemple.@email.com">
+        </p>
+
+        <p>
+            <label for="numero">Seu numero:</label>
+            <input type="number" id="number" name="number" min="8" max="15">
+        </p>
+
+        <p>
+            <label for="file">Sua foto:</label>
+            <input type="file" id="file" name="file" accept=".jpg, .png" multiple>
+        </p>
+
+
+        <p>
+            <button type="reset">Resetar</button>
+            <button type="submit">Enviar</button>
+
+        </p>
+
+    </form>
+</body>
+
+</html>
