@@ -1,0 +1,20 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.color-pink {
+    color: pink;
+}
+
+div {
+    margin-left: 20px;
+    color: initial
+}
+
+.pai >.filha > .filha {
+    color: darkslateblue;
+    font-family: sans-serif;
+    font-size: 20px;
+}
