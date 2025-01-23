@@ -1,0 +1,30 @@
+p {
+    font-size:  15px;
+}
+
+ul li::after {
+    content: '-';
+    display: block;
+    color: red;
+    background: gray;
+}
+
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0px 10px 10px 0px ;
+}
+
+p::first-line {
+    background: red;
+}
+
+p::selection {
+    background:  black;
+    color: white;
+}
+
+::placeholder {
+    color: rebeccapurple;
+}
