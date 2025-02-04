@@ -1,0 +1,15 @@
+p {
+    font-size: 20px;
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: left;
+    text-indent: 50px;
+    text-shadow: 1px 1px 1px purple;
+    text-transform: capitalize;
+
+}
