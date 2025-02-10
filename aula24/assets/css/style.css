@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgb(66, 7, 202);
+    align-items: stretch;
+    height: 200px;
+}
+
+.flex-item {
+    color: #fff;
+    background: rgb(9, 197, 125);
+    margin: 30px;
+    width: 100%;
+}
